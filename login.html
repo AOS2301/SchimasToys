@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>schimas_toys</title>
+    <link rel="stylesheet"> 
+</head>
+<body>
+    <div class="main-login" action="autenticacao.php" method="POST">
+        <div class="box">
+            <div class="esquerda">
+                <h1>Cadastro</h1>
+                <form action="cadastroUser.php" method="POST">
+                    <div class="esquerda-e">
+                        <h2 class="title title-primary">Bem vindo!</h2>
+                        <p class="description description-primary">Para se manter conectado</p>
+                        <button id="signin" class="btn btn-primary">logar</button>
+                    </div>
+                    <div class="esquerda-d">
+                        <div class="textfield-cadastro"><input type="text"  name="nome_usuario" placeholder="Digite o nome dasdasdasdo usuario..." required></div>    
+                        <div class="textfield-cadastro"><input type="text"  name="email_usuario" placeholder="Digite o email do usuario..." required></div>
+                        <div class="textfield-cadastro"><input type="text"  name="senha_usuario" placeholder="Digite a senha do usuario..." required></div>
+                        <div class="textfield-cadastro"><input type="text"  name="telefone_usuario" placeholder="Digite o telefone do usuario..." required></div>
+                        <div class="textfield-cadastro"><input type="radio"  name="sexo_usuario" value="Masulino"></div>
+                        <div class="textfield-cadastro-radio"><input type="radio"  name="sexo_usuario" value="Feminino"></div>
+                        <div class="textfield-cadastro-radio"><input type="date"  name="data_nascimento_usuario" ></div>
+                        <div class="textfield-cadastro"><input type="text"  name="cidade_usuario" placeholder="Digite a cidade do usuario..."></div>  
+                        <div class="textfield-cadastro"><input type="text"  name="estado_usuario" placeholder="Digite o estado do usuario..."></div>
+                        <div class="textfield-cadastro"><input type="text"  name="endereco_usuario" placeholder="Digite o endereco do usuario..."></div>
+                    </div>
+                    <input type="submit" value="Cadastrar" class="btn-login"> 
+                </form>
+            </div>
+            <div class="direita">
+                <h1>Login</h1>
+                <form action="autenticacao.php" method="post">
+                    <div class="esquerda-e">
+                        <h2 class="title title-primary">Bem vindo!</h2>
+                        <p class="description description-primary">Para se manter conectado</p>
+                        <button id="signin" class="btn btn-primary">logar</button>
+                    </div>
+                    <div class="esquerda-d">
+                        <div class="textfield-cadastro"><input type="text"  name="nome_usuario" placeholder="Digite o nome dasdasdasdo usuario..." required></div>    
+                        <div class="textfield-cadastro"><input type="text"  name="email_usuario" placeholder="Digite o email do usuario..." required></div>
+                        <div class="textfield-cadastro"><input type="text"  name="senha_usuario" placeholder="Digite a senha do usuario..." required></div>
+                        <div class="textfield-cadastro"><input type="text"  name="telefone_usuario" placeholder="Digite o telefone do usuario..." required></div>
+                        <div class="textfield-cadastro"><input type="radio"  name="sexo_usuario" value="Masulino"></div>
+                        <div class="textfield-cadastro-radio"><input type="radio"  name="sexo_usuario" value="Feminino"></div>
+                        <div class="textfield-cadastro-radio"><input type="date"  name="data_nascimento_usuario" ></div>
+                        <div class="textfield-cadastro"><input type="text"  name="cidade_usuario" placeholder="Digite a cidade do usuario..."></div>  
+                        <div class="textfield-cadastro"><input type="text"  name="estado_usuario" placeholder="Digite o estado do usuario..."></div>
+                        <div class="textfield-cadastro"><input type="text"  name="endereco_usuario" placeholder="Digite o endereco do usuario..."></div>
+                    </div>
+                    <input type="submit" value="Cadastrar" class="btn-login"> 
+                    
+                    <div class="textfield-login">
+                        <label for="usuario">E-Mail</label>
+                        <input type="email" name="email" placeholder="E-Mail">
+                    </div>
+                    <div class="textfield-login">
+                        <label for="senha">Senha</label>
+                        <input type="password" name="senha" placeholder="Senha">
+                    </div>
+                    <input type="submit" value="logar" class="btn-login">
+                </form>        
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+href="css/estiloCadLog.css"
